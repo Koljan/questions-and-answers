@@ -1,0 +1,14 @@
+.question-wrapper{
+    display: none;
+}
+.active-question{
+    display: block;
+}
+.hideEl{
+    visibility: hidden;
+    display: none;
+}
+.showEl{
+    visibility: visible;
+    display: inline-block;
+}
