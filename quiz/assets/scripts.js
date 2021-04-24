@@ -127,7 +127,6 @@ let UIController = (function () {
                 answerData['is_valid'] = false;
             }
 
-            // return true or false
             return answerData;
         },
         displayUserForm: function(){
