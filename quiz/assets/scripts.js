@@ -115,7 +115,7 @@ let UIController = (function () {
             value = qSelector.val();
             errorSelector = qSelector.closest(DOMstrings.activeQuestion + questionObj.id).find('.invalid-feedback');
 
-            // check against validation rules
+            // check against validation rules test
             if (value.length > 0 && value.length < 5) {
                 answerData['qId'] = questionObj.id;
                 answerData['value'] = value;
